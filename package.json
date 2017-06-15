@@ -1,0 +1,34 @@
+{
+  "name": "manu-scripts",
+  "version": "1.0.0",
+  "description": "utilities and visualization tools for TEI markup process/analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "lines": "node xmlUtilities/lineAuto.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siteations/manu-scripts.git"
+  },
+  "keywords": [
+    "Piers",
+    "Boethius",
+    "XML",
+    "TEI",
+    "node",
+    "utilities",
+    "RegEx"
+  ],
+  "author": "meg studer (with ian cornelius)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siteations/manu-scripts/issues"
+  },
+  "homepage": "https://github.com/siteations/manu-scripts#readme",
+  "dependencies": {
+    "CETEIcean": "^0.4.0",
+    "bluebird": "^3.5.0"
+  }
+}
